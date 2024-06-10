@@ -4,7 +4,7 @@
     --accent-color: #FF7500;
     --background-color: #E0E0E0;
     --text-color: #333;
-    --container-bg: #333333;
+    --container-bg: #555555; /* Mid-tone grey background */
     --border-radius: 10px;
     --container-padding: 15px;
 }
