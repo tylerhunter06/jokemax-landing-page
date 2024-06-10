@@ -4,8 +4,9 @@
     --accent-color: #FF7500;
     --background-color: #E0E0E0;
     --text-color: #333;
-    --container-bg: #fff;
+    --container-bg: #333333;
     --border-radius: 10px;
+    --container-padding: 15px;
 }
 
 body {
@@ -24,12 +25,12 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 20px;
+    padding: var(--container-padding);
     text-align: center;
     background-color: var(--container-bg);
-    margin: 20px auto;
+    margin: 10px auto;
     border-radius: var(--border-radius);
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
     max-width: 600px;
 }
 
@@ -81,7 +82,7 @@ footer {
     color: white;
     border-top-left-radius: var(--border-radius);
     border-top-right-radius: var(--border-radius);
-    margin-top: 20px;
+    margin-top: 10px;
 }
 
 @media (max-width: 600px) {
@@ -98,4 +99,3 @@ footer {
         width: calc(100% - 20px);
     }
 }
-
