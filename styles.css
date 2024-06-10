@@ -2,14 +2,14 @@
     --primary-color: #0092D0;
     --secondary-color: #FDBE43;
     --accent-color: #FF7500;
-    --background-color: #f4f4f4;
+    --background-color: #E0E0E0;
     --text-color: #333;
     --container-bg: #fff;
     --border-radius: 10px;
 }
 
 body {
-    font-family: 'Arial', sans-serif;
+    font-family: 'Roboto', sans-serif;
     background-color: var(--background-color);
     color: var(--text-color);
     margin: 0;
@@ -27,9 +27,10 @@ body {
     padding: 20px;
     text-align: center;
     background-color: var(--container-bg);
-    margin: 20px;
+    margin: 20px auto;
     border-radius: var(--border-radius);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
 }
 
 header h1 {
@@ -44,16 +45,17 @@ header p {
 
 form {
     margin-top: 20px;
+    width: 100%;
 }
 
 input[type="email"] {
     padding: 10px;
     border: 1px solid var(--primary-color);
     border-radius: var(--border-radius);
-    margin-right: 10px;
-    width: calc(100% - 130px);
-    max-width: 300px;
+    margin-bottom: 10px;
+    width: calc(100% - 22px);
     box-sizing: border-box;
+    font-size: 1rem;
 }
 
 button {
@@ -64,6 +66,8 @@ button {
     border-radius: var(--border-radius);
     cursor: pointer;
     transition: background-color 0.3s ease;
+    width: 100%;
+    box-sizing: border-box;
 }
 
 button:hover {
@@ -77,6 +81,7 @@ footer {
     color: white;
     border-top-left-radius: var(--border-radius);
     border-top-right-radius: var(--border-radius);
+    margin-top: 20px;
 }
 
 @media (max-width: 600px) {
@@ -86,7 +91,6 @@ footer {
     }
 
     input[type="email"] {
-        margin-bottom: 10px;
         width: calc(100% - 20px);
     }
 
@@ -94,3 +98,4 @@ footer {
         width: calc(100% - 20px);
     }
 }
+
