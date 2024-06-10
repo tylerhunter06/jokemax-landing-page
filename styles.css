@@ -40,8 +40,8 @@ body {
 
 .brand h1 {
     color: var(--primary-color);
-    font-size: 3.5rem; /* Larger font size */
-    text-shadow: 2px 2px 4px var(--accent-color), 4px 4px 8px var(--primary-color); /* Dual color shadow */
+    font-size: 4rem; /* Larger font size */
+    text-shadow: 3px 3px var(--accent-color), 6px 6px var(--primary-color); /* Dual color shadow */
     margin: 0; /* Remove margin for better spacing */
 }
 
