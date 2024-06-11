@@ -41,7 +41,7 @@ body {
 .brand h1 {
     color: var(--primary-color);
     font-size: clamp(2.5rem, 5vw, 4rem); /* Responsive font size */
-    text-shadow: 3px 3px var(--accent-color), 6px 6px var(--primary-color); /* Dual color shadow */
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5); /* Subtle single-color shadow */
     margin: 0; /* Remove margin for better spacing */
 }
 
@@ -107,3 +107,4 @@ footer {
         width: calc(100% - 20px);
     }
 }
+
